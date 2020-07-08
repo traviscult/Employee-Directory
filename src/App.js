@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import Header from "./components/header/Header"
-import Table from "./components/table/Table"
+import EmployeeTable from "./components/table/EmployeeTable"
 import './App.css';
 import API from "../src/utils/API"
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Header/>
-      <Table/>
+      <EmployeeTable/>
     </div>
   );
 }
