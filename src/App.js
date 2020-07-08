@@ -6,6 +6,7 @@ import './App.css';
 import API from "../src/utils/API"
 
 function App() {
+  //set a state that is the reults form the api
   API.getUsers().then(res => {
     console.log("User info", res.data.results)
   })

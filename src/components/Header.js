@@ -3,7 +3,7 @@ import SearchBar from "./SearchBar";
 
 
 
-function Header() {
+const Header = () => {
     return (
         <div>
            <h1>Employee Directory</h1>
