@@ -4,6 +4,7 @@ import Header from "./components/header/Header"
 import EmployeeTable from "./components/table/EmployeeTable"
 import './App.css';
 import API from "../src/utils/API"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   //set a state that is the reults form the api
