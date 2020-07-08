@@ -16,6 +16,9 @@ let EmployeeTable = (props) => {
         <th>E-Mail</th>
         <th>DOB</th>
       </tr>
+      <tbody>
+          
+      </tbody>
     </Table>
   );
 };
