@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
-import Header from "./components/Header"
-import Table from "./components/Table"
+import Header from "./components/header/Header"
+import Table from "./components/table/Table"
 import './App.css';
 import API from "../src/utils/API"
 
