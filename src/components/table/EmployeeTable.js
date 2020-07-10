@@ -8,7 +8,7 @@ let EmployeeTable = (props) => {
     <Table striped bordered hover variant="dark" className="employeeTable">
       <thead>
         <tr>
-          <th>Emplyee Image</th>
+          <th>Employee Image</th>
           <th onClick={props.sortByName}>Name</th>
           <th>Phone</th>
           <th>E-mail</th>
