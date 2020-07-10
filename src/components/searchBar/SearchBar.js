@@ -6,7 +6,7 @@ function SearchBar(props) {
     return (
         <div>
             <form>
-                <input placeholder="Search" 
+                <input 
                   onChange={props.handleInputChange}
                   value={props.value}
                   id="employee"
