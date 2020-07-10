@@ -1,15 +1,21 @@
 import React from "react";
-// import "../styles/SearchBar.css"
+import "./style.css"
 
 
-function SearchBar() {
+function SearchBar(props) {
     return (
         <div>
             <form>
-                <input placeholder="Search" />
+                <input placeholder="Search" 
+                  onChange={props.handleInputChange}
+                  value={props.value}
+                  id="employee"
+                  type="text"
+                  className="inputBox"
+                  placeholder="Search by name" 
+                  />
             </form>
         </div>
     )
 }
-
 export default SearchBar;
