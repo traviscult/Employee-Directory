@@ -1,5 +1,8 @@
 # employee-directory
+[![Repo Size](https://img.shields.io/github/repo-size/traviscult/employee-directory?style=plastic)](https://github.com/traviscult/employee-directory)
+[![Main Repo Language](https://img.shields.io/github/languages/top/traviscult/employee-directory?style=plastic)](https://github.com/traviscult/employee-directory)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/183ca3e2-ee32-4fa9-aeec-bdc2e79d8d6a/deploy-status)](https://app.netlify.com/sites/react-employee-directory-app/deploys)
 
 ## User Story
 
@@ -8,3 +11,12 @@
 ## Business Context
 
 An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+
+## Installation
+
+
+## API Used 
+[Randomuser.me](https://randomuser.me/ "Randomuser.me")
+
+## Deployed Application
+[Epmloyee Directoy](https://5f08e5ed8fdeda0007ec3567--react-employee-directory-app.netlify.app/ "Epmloyee Directoy")
